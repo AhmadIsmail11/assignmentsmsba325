@@ -4,7 +4,7 @@ import streamlit as st
 from colorthief import ColorThief
 
 # Load data (ensure correct path)
-df = pd.read_csv("C:/Users/LENOVO/Desktop/Trial3/alcohol_consumption_data.csv")
+df = pd.read_csv("alcohol_consumption_data.csv")
 
 # Create interactive bar chart with select box
 st.header("Bar Chart with Select Box")
