@@ -42,7 +42,6 @@ st.plotly_chart(line_chart)
 # Add download functionality
 st.header("Download Files")
 st.download_button("Download Bar Chart Data", data=filtered_df.to_csv(), file_name="bar_chart_data.csv")
-st.download_button("Download Heatmap Data", data=heatmap_data.to_csv(), file_name="heatmap_data.csv")
 
 
 
